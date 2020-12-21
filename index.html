@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="kisy">
+        <div class="container">
+            <img src="images/logo.png" class="logo">
+            <div class="header-text">
+                <h1> Human–computer interaction is a <br>
+                    specialty in many fields,<br>
+                    and is therefore multidisciplinary,<br>
+                    but it has an intrinsic relationship as a subfield
+                    to computer science.</h1>
+                    <span class="square"></span>
+                    <p>This Human-Computer interaction E-Portfolio<br>
+                        is a compilation activities and modules of a
+                        third year BSCS 3A college student.
+                    </p>
+                 <div class="line">
+                        <span class="line-1"></span><br>
+                        <span class="line-2"></span><br>
+                        <span class="line-3"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <nav id="sideNav">
+        <ul>
+            <li><a href="#kisy"> HOME </a> </li>
+            <li><a href="#about"> ABOUT ME </a> </li>
+            <li><a href="#module"> MODULES </a> </li>
+            <li><a href="#activity"> ACTIVITIES </a> </li>
+        </ul>
+    </nav>
+
+    <img src="images/menu.png" id="menuBtn">
+<!--about-->
+    <section id="about">
+        <div class="container2">
+            <img src="images/about.png" class="aboutpng">
+            <div class="about-par">
+                <p> Kristy Laanan <br>  
+                    BSCS 3A <br>
+                    Iloilo Science <br>
+                    Technology University
+                </p>
+                <span class="square"></span>
+                <h1> <q> Learning is not attained <br>
+                        by chance, it must be sought<br>
+                        for with ardor and attended<br>
+                        to with diligence
+                    </q>
+                </h1>
+                <h2>~Abigail Adams~</h2>
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                </div>
+            </div>
+    </section>
+
+<!--Modules-->
+    <section id="module">
+        <div class="container3">
+            <img src="images/modules.png" class="mod">
+        </div>
+<div class="folders">
+<a href="./files/Human-Computer-Interaction-1.pdf"> <img src="images/fold1.png" class="fold1"> </a>
+<a href="files/ICT-116_Module-1-HCI.pdf"> <img src="images/mod1.png" class="mod1"> </a>
+<a href="files/ICT-116-Module-2-HCI.pdf"> <img src="images/mod2.png" class="mod2"> </a>
+<a href="files/ICT-116-Module-3-HCI.pdf"> <img src="images/mod3.png" class="mod3"><br> </a>
+<a href="files/ICT-116-Module-4-HCI.pdf"> <img src="images/mod4.png" class="mod4"></a>
+<a href="./files/ICT-116-Module-5-HCI.pptx"> <img src="images/mod5.png" class="mod5"> </a>
+<a href="./files/ICT-116_Module-6-HCI.pdf"> <img src="images/mod6.png" class="mod6"> </a>
+<a href="./files/ICT-116_Module-7-HCI.pdf"> <img src="images/mod7.png" class="mod7"><br> </a>
+
+<a href="https://web.facebook.com/groups/297768618325773/learning_content/?filter=902181776939016&post=1057252584697779"> <img src="images/mod8.png" class="mod8"> </a>
+<a href="files/ICT-116-Module-9-HCI.pptx"> <img src="images/mod9.png" class="mod9"> </a>
+<a href="files/ICT-116-MODULE10.docx"> <img src="images/mod10.png" class="mod10"> </a>
+<a href="files/UNDERSTANDING-and-CONCEPTUALIZING-INTERACTION.pdf"> <img src="images/fold2.png" class="fold2"> </a>
+</div>
+    </section>
+
+    <!--Activities-->
+    <section id="activity">
+        <div class="container4">
+            <img src="images/activities.png" class="activities">
+        </div>
+        <div class="actfolders">
+<a href="files/activity_No.1_La-anan.docx"> <img src="images/act1.png" class="act1"> </a>
+<a href="files/activity_No.2_La-anan.docx"> <img src="images/act2.png" class="act2"> <br> </a>
+<a href="files/activity_No.3_La-anan.docx"> <img src="images/act3.png" class="act3"> </a>
+</div>
+    </section>
+<!--SocialIcons-->
+        <div class="social-icons">
+<a href="https://web.facebook.com/kristykristy.laanan"> <img src="images/facebook.png"> <br> </a>
+<a href="https://www.instagram.com/kiyeel_xx/"> <img src="images/insta.png"> <br> </a>
+<a href="files/overview.pdf"> <img src="images/overview.png"> </a>
+</div>
+<script>
+        var menuBtn = document.getElementById("menuBtn");
+        var sideNav = document.getElementById("sideNav");
+
+        sideNav.style.right = "-250px";
+        menuBtn.onclick = function()
+            {
+                if(sideNav.style.right == "-250px")
+                    {
+                        sideNav.style.right = "0";
+                    }
+                else
+                    {
+                        sideNav.style.right = "-250px";
+                    }
+            }
+ var scroll = new SmoothScroll('a[href*="#"]',
+            {
+                speed: 1000,
+                speedAsDuration:true
+            });
+    
+    </script>
+
+</body>
+</html>
